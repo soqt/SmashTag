@@ -25,8 +25,6 @@ class TweetsTableViewController: UITableViewController, UITextFieldDelegate {
         tableView.estimatedRowHeight = tableView.rowHeight
         tableView.rowHeight = UITableViewAutomaticDimension
         title = "Smash Tag"
-        searchTweet.text = "#Pokemon"
-        searchText = searchTweet.text
     }
     
     // 2) search text
